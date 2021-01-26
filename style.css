@@ -1,0 +1,113 @@
+body {
+  background-image: url("PCSkyline.png")
+}
+
+.newBackground {
+  background-image: url("HKSkyline.jpeg")
+}
+
+header {
+  text-align: center;
+}
+
+header h1, h2 {
+  border: 5px solid darkred;
+  background-color: gray;
+  margin: 10px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header h2 {
+  padding-right: 2px;
+  padding-left: 2px;
+  margin-right: 175px;
+  margin-left: 175px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header nav {
+  line-height: 30px;
+  border: 2px solid #EDCF8E;
+  margin-right: 250px;
+  margin-left: 250px;
+}
+
+main h2 {
+  text-align: center;
+  border: none;
+  background-color: #DEC4A1;
+}
+
+main p {
+  text-align: center;
+  line-height: 20px;
+  color: #000;
+  background-color:gray;
+  margin: auto;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10%;
+  display: block;
+}
+
+h3 {
+  text-align: center;
+}
+
+/* I realize that the pseudo-classes below in the way that I made them was unnecessary and there is likely a better way, but I decided to just write it out for better clarity, I guess. */
+
+.navigation:link { color:blue; }
+.navigation:visited { color:purple; }
+.navigation:hover { color:lightblue; }
+.navigation:active { color:lightgreen; }
+
+.email:link { color:blue; }
+.email:visited { color:purple; }
+.email:hover { color:lightblue; }
+.email:active { color:lightgreen; }
+
+.phone:link { color:blue; }
+.phone:visited { color:purple; }
+.phone:hover { color:lightblue; }
+.phone:active { color:lightgreen; }
+
+.business:link { color:blue; }
+.business:visited { color:purple; }
+.business:hover { color:lightblue; }
+.business:active { color:lightgreen; }
+
+.programming:link { color:blue }
+.programming:visited { color:purple; } 
+.programming:hover { color:lightblue; }
+.programming:active { color:lightgreen; }
+
+.adrian {
+  font-size: 35px;
+  text-align: left;
+  background-color: none;
+  margin-top: 40px;
+}
+
+ol {
+  color: black;
+  background-color: gray;
+  border: 3px solid darkred;
+  margin-right: 900px;
+}
+
+.phone, .email {
+  background-color: #EDFBC1;
+  padding: 10px;
+  border-radius: 25%;
+}
+
+.elmo p {
+  margin-left: 400px;
+  margin-right: 400px;
+  padding: 25px;
+}
+
